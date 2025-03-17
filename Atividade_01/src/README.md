@@ -36,8 +36,8 @@ Existe um elemento que é a soma de dois anteriores.
 ### Exercício 3: Reorganização de array
 Entrada:
 ```
-array = 8 2 7 3 10 5 1 6
-k = 5
+Array = 8 2 7 3 10 5 1 6
+K = 5
 ```
 Saída:
 ```
