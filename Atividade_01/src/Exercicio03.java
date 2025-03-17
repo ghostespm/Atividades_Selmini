@@ -25,11 +25,8 @@ public class Exercicio03 {
     
     public static void reorganizar(ArrayList<Integer> array, int k) {
         int Insercao = 0;
-
-        // Percorre o array movendo elementos menores ou iguais a k para a frente
         for (int i = 0; i < array.size(); i++) {
             if (array.get(i) <= k) {
-                // Troca apenas quando necessário
                 if (i != Insercao) {
                     int t = array.get(i);
                     array.set(i, array.get(Insercao));
