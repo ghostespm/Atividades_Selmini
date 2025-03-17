@@ -17,25 +17,25 @@ public class Exercicio03 {
         System.out.println("Digite o valor de k:");
         int k = scanner.nextInt();
         
-        Reorganizar(array, k);
+        reorganizar(array, k);
         System.out.println("Array reorganizado: " + array);
         
         scanner.close();
     }
     
-    public static void Reorganizar(ArrayList<Integer> array, int k) {
-        int esquerda = 0, direita = array.size() - 1;
-        while (esquerda <= direita) {
-            if (array.get(esquerda) <= k) {
-                esquerda++;
-            } else if (array.get(direita) > k) {
-                direita--;
-            } else {
-                int temp = array.get(esquerda);
-                array.set(esquerda, array.get(direita));
-                array.set(direita, temp);
-                esquerda++;
-                direita--;
+    public static void reorganizar(ArrayList<Integer> array, int k) {
+        int Insercao = 0;
+
+        // Percorre o array movendo elementos menores ou iguais a k para a frente
+        for (int i = 0; i < array.size(); i++) {
+            if (array.get(i) <= k) {
+                // Troca apenas quando necessário
+                if (i != Insercao) {
+                    int t = array.get(i);
+                    array.set(i, array.get(Insercao));
+                    array.set(Insercao, t);
+                }
+                Insercao++;
             }
         }
     }
