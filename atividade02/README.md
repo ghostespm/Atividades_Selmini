@@ -92,6 +92,5 @@ class ListaDupla<T> {
     }
 }
 ```
----
 Desenvolvido para fins acadêmicos - Estrutura de Dados - 2025.
 ---
