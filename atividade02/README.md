@@ -92,29 +92,5 @@ class ListaDupla<T> {
     }
 }
 ```
-
----
-
-## 📊 Avaliação
-
-| Critério | Pontuação |
-|----------|------------|
-| Cadastro de cidades | 2,0 |
-| Cadastro de ligações diretas | 2,0 |
-| Listagem de cidades e ligações | 2,0 |
-| Verificação de ligação direta | 2,0 |
-| Ligações dentro do tempo limite | 2,0 |
-
-> ⚠️ O não cumprimento dos requisitos básicos acarretará nota **zero**.
-
----
-
-## 🌐 Link para o Repositório
-
-Informe aqui o link do seu repositório GitHub:  
-`https://github.com/seu-usuario/seu-repositorio`
-
----
-
 Desenvolvido para fins acadêmicos - Estrutura de Dados - 2025.
 
